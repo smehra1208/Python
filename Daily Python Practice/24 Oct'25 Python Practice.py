@@ -23,13 +23,13 @@ radius = int(input("Enter radius of circle: "))
 Area = math.pi*radius**2
 print("Area of circle is", Area)
 
-#5. Convert kilometers to miles
+#5. WAP Convert kilometers to miles
 # 1km = 0.621 miles
 km = int(input("Enter the distance in km: "))
 miles = km*0.621
 print("Distance is", miles, "miles")
 
-#6. Calculate the displacement
+#6. WAP Calculate the displacement
 '''
 Write a Python program to calculate the displacement (d) of an object using the second equation of motion:
 d =  ( v * v  -  u * u ) / (2 * a)
@@ -44,4 +44,5 @@ u= int(input("Enter the Initial velocity: "))
 a= int(input("Enter the Acceleration: "))
 d= (v**2-u**2)/(2*a)
 print("Displacement is", d)
+
 
