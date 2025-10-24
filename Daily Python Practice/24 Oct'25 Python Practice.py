@@ -86,3 +86,12 @@ if age>=18 and age<60:
     print("You are eligible to work.")
 else:
     print("You are not eligible to work.")
+
+#13. WAP Check Valid marks (between 0 to 100)
+marks=float(input("Enter your marks: "))
+if marks>=0 and marks<=100:
+    print("valid marks.")
+else:
+    print("invalid marks.")
+
+#14. 
