@@ -1,4 +1,4 @@
-#1. WAP Area of rectangle
+#1. WAP Area of Rectangle
 length = int(input("Enter length of the rectangle: "))
 breadth = int(input("Enter breadth of the rectangle: "))
 Area = length*breadth
@@ -16,3 +16,9 @@ b = int(input("Enter length of second side: "))
 height= int(input("Enter height of the trapezium: "))
 Area = (1/2)*(a+b)*height
 print("Area of trapezium is", Area)
+
+#4. WAP Area of Circle
+import math
+radius = int(input("Enter radius of circle: "))
+Area = math.pi*radius**2
+print("Area of circle is", Area)
