@@ -94,4 +94,25 @@ if marks>=0 and marks<=100:
 else:
     print("invalid marks.")
 
-#14. 
+#14. WAP: Gender Check
+gender = input("Enter your gender: ").lower()
+if gender=="m":
+    print("Gender is male.")
+else:
+    print("Gender is female.")
+
+#15. WAP: Check if the alphabet is vowel or consonant
+alphabet = input("Enter a alphabet: ").lower()
+if alphabet == "a" or alphabet == "e" or alphabet == "i" or alphabet == "o" or alphabet == "u":
+    print("Alphabet is a vowel.")
+else:
+    print("Alphabet is a consonant.")
+
+#16. WAP: check exam result (passing marks = 45, should pass in all subjects - maths, physics, chemistry)
+maths=float(input("Enter marks in maths: "))
+phy = float(input("Enter marks in physics: "))
+chem = float(input("Enter marks in chemistry: "))
+if maths>=45 and phy>=45 and chem>=45:
+    print("passed")
+else:
+    print("failed")
