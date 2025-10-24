@@ -30,14 +30,12 @@ miles = km*0.621
 print("Distance is", miles, "miles")
 
 #6. WAP Calculate the displacement
-'''
-Write a Python program to calculate the displacement (d) of an object using the second equation of motion:
-d =  ( v * v  -  u * u ) / (2 * a)
-Where:
-• v = Final velocity
-• u = Initial velocity
-• a = Acceleration
-'''
+#Write a Python program to calculate the displacement (d) of an object using the second equation of motion:
+#d =  ( v * v  -  u * u ) / (2 * a)
+#Where:
+#• v = Final velocity
+#• u = Initial velocity
+#• a = Acceleration
 
 v= float(input("Enter the Final velocity: "))
 u= float(input("Enter the Initial velocity: "))
