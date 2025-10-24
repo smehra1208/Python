@@ -50,4 +50,12 @@ height = float(input("Enter height of cuboid: "))
 surface_area = 2*((length*breadth)+(breadth*height)+(height*length))
 print("Surface area of cuboid is", surface_area)
 
+#8. WAP Find roots of Quadratic equation
+import math
+a = int(input("Enter value of first constant 'a': "))
+b = int(input("Enter value of second constant 'b': "))
+c = int(input("Enter value of third constant 'c': "))
+root1= (-b + math.sqrt(b**2-4*a*c))/(2*a)
+root2= (-b - math.sqrt(b**2-4*a*c))/(2*a)
+print("Roots of quadratic equation are", root1, "and", root2)
 
