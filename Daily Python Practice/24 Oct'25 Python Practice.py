@@ -59,3 +59,11 @@ root1= (-b + math.sqrt(b**2-4*a*c))/(2*a)
 root2= (-b - math.sqrt(b**2-4*a*c))/(2*a)
 print("Roots of quadratic equation are", root1, "and", root2)
 
+#9. WAP Check whether a number is positive or negative
+a= float(input("enter a number: "))
+if a<0:
+    print("Number is negative")
+else:
+    print("Number is positive")
+
+
