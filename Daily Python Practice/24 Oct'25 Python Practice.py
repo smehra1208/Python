@@ -22,3 +22,10 @@ import math
 radius = int(input("Enter radius of circle: "))
 Area = math.pi*radius**2
 print("Area of circle is", Area)
+
+#5. Convert kilometers to miles
+# 1km = 0.621 miles
+km = int(input("Enter the distance in km: "))
+miles = km*0.621
+print("Distance is", miles, "miles")
+
