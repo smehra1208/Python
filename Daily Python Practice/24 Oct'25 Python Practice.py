@@ -66,4 +66,23 @@ if a<0:
 else:
     print("Number is positive")
 
+#10. WAP Check if the number is odd or even.
+num= int(input("Enter a number: "))
+if num%2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
 
+#11. WAP Check eligibility to vote
+age=int(input("Enter your age: "))
+if age>= 18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
+
+#12. WAP Eligibility to work (if age is between 18 and 60)
+age=int(input("Enter your age: "))
+if age>=18 and age<60:
+    print("You are eligible to work.")
+else:
+    print("You are not eligible to work.")
