@@ -29,3 +29,19 @@ km = int(input("Enter the distance in km: "))
 miles = km*0.621
 print("Distance is", miles, "miles")
 
+#6. Calculate the displacement
+'''
+Write a Python program to calculate the displacement (d) of an object using the second equation of motion:
+d =  ( v * v  -  u * u ) / (2 * a)
+Where:
+• v = Final velocity
+• u = Initial velocity
+• a = Acceleration
+'''
+
+v= int(input("Enter the Final velocity: "))
+u= int(input("Enter the Initial velocity: "))
+a= int(input("Enter the Acceleration: "))
+d= (v**2-u**2)/(2*a)
+print("Displacement is", d)
+
