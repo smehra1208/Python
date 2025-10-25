@@ -95,3 +95,15 @@ elif  digit == 9:
     print("Nine")
 else:
     print("Enter valid digit number")
+
+#6. WAP To check if the given year is a leap year or not
+year = int(input("Enter the year"))
+if year%100 == 0:
+    if year%400 == 0:
+         print(year, "is a leap year.")
+    else:
+        print(year, "is not a leap year.")
+elif year%4 == 0:
+    print(year, "is a leap year.")
+else:
+    print(year, "is not a leap year.")
